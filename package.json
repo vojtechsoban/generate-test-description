@@ -1,0 +1,34 @@
+{
+  "name": "generate-test-description",
+  "version": "1.0.0",
+  "description": "Utility to generate Mocha describe based on tested file location",
+  "main": "index.js",
+  "scripts": {
+    "demo-test": "mocha example/**/*.spec.js",
+    "demo": "node -r babel-register ./src/generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vojtechsoban/generate-test-description.git"
+  },
+  "keywords": [
+    "Mocha",
+    "babylon",
+    "describe",
+    "generate"
+  ],
+  "author": "Vojtech Soban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vojtechsoban/generate-test-description/issues"
+  },
+  "homepage": "https://github.com/vojtechsoban/generate-test-description#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.5"
+  }
+}
